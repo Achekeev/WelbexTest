@@ -1,5 +1,7 @@
 from django.db import models
 
+# С комментариями пока туго, но мне кажется что тут итак всё ясно =)
+
 
 class TestTable(models.Model):
     date = models.DateField(auto_now_add=True, verbose_name="Дата")
